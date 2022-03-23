@@ -1,9 +1,13 @@
 ## Overview
-The purpose of this project is to scrape four different websites in order to display the live aggregated Mars data within a single webpage by the press of a button. To this end, we inspect each webpage using Chrome Developer Tools, parse the html with Splinter and BeautifulSoup in Jupyter Notebook, download the Notebook file as a Python file, store the various structured data within NoSQL database MongoDB, and connect MongoDB and Flask using Flask-PyMongo. Then utilizing Visual Studio, we create a Flask app in app.py, construct the webpage and embellish it with Bootstrap in index.html.
+
+The purpose of this project is to scrape four different websites in order to display the live aggregated Mars data within a single webpage by the press of a button. 
+
+To this end, we inspect each webpage using Chrome Developer Tools, parse the html with Splinter and BeautifulSoup in Jupyter Notebook, download the Notebook file as a Python file, store the various structured data within NoSQL database MongoDB, and connect MongoDB and Flask using Flask-PyMongo. Then utilizing Visual Studio, we create a Flask app in app.py, construct the webpage and embellish it with Bootstrap in index.html.
 
 ## Resources
 
 Data source:
+
     Mars news
         https://redplanetscience.com/
 
@@ -17,6 +21,7 @@ Data source:
         https://marshemispheres.com/
 
 Software:
+
     Web scrape
         BeautifulSoup
         Chrome Developer Tools
@@ -40,4 +45,10 @@ Software:
 ## Results
 
 The resulting webpage as of March 22, 2022 is displayed below.
+
+![mars_title](https://user-images.githubusercontent.com/96349090/159634340-923ce9c7-b398-447b-97a5-bc170f8ef4a6.png)
+
+![mars_news_img_facts](https://user-images.githubusercontent.com/96349090/159634363-a200a784-a6e7-4ebd-bf92-b146a85000a9.png)
+
+![mars_hemispheres](https://user-images.githubusercontent.com/96349090/159634388-a3a04015-5bf0-44ae-bedb-20eba041ef20.png)
 
