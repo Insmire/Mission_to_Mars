@@ -40,6 +40,7 @@ Software:
         Bootstrap v.3 content delivery network (CDN)
         Flask
         Flask-PyMongo
+        HTML
         Visual Studio Code (VSCode) 1.63.2
 
 ## Results
