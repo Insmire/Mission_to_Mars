@@ -2,13 +2,13 @@
 
 The purpose of this project is to scrape four different websites to display the live aggregated Mars data within a single webpage.
 
-To this end, we inspect each webpage with Chrome Developer Tools, parse the HTML with BeautifulSoup and automate webpage navigation with Splinter in Jupyter Notebook, export work as a Python file, store the various structured data within the NoSQL database MongoDB, and connect MongoDB and Flask using Flask-PyMongo. Then, utilizing Visual Studio, we create a Flask app in app.py, construct the webpage, and embellish it with Bootstrap in index.html.
+To this end, we inspect each webpage with Chrome Developer Tools, parse the HTML with BeautifulSoup and automate webpage navigation with Splinter in Jupyter Notebook, export work as a Python file, store the various structured data within the NoSQL database MongoDB and connect MongoDB and Flask using Flask-PyMongo. Then, utilizing Visual Studio, we create a Flask app in app.py, construct the webpage, and embellish it with Bootstrap in index.html.
 
 ---
 
 ## Results
 
-The resulting webpage as of March 22, 2022 is displayed below.
+The resulting webpage as of March 22, 2022, is displayed below.
 
 ![mars_title](https://user-images.githubusercontent.com/96349090/159634340-923ce9c7-b398-447b-97a5-bc170f8ef4a6.png)
 
@@ -63,4 +63,4 @@ Software:
 
 Email: show.wang94@gmail.com
 
-LinkedIn: [https://www.linkedin.com/in/s-k-wang](https://www.linkedin.com/in/s-k-wang)
+LinkedIn: [showkatewang](http://linkedin.com/in/showkatewang)
